@@ -1,5 +1,3 @@
-# zenmux-fable-orchestrator
-Local agentic orchestrator for Claude Fable 5 and Opus 4.8 via ZenMux API.
 # ZenMux Fable Orchestrator 🚀
 
 A lightweight, developer-focused Python orchestrator designed to utilize **Claude Fable 5** and **Claude Opus 4.8** with adaptive reasoning overrides (`effort: max`) over the ZenMux Gateway.
@@ -22,3 +20,25 @@ Unlike standard providers, ZenMux perfectly passes the custom payload parameters
 "output_config": {
   "effort": "max"
 }
+```
+This allows Fable 5 to execute deep cognitive reasoning on complex algorithmic problems without truncation.
+
+**Verification Status:**
+- **Developer:** github.com/[ВАШ_НИК_НА_GITHUB]
+- **Target Campaign:** ZenMux Friends Plan (Token Free Campaign)
+- **Status:** Verified Active Integration
+
+---
+
+## 🛠️ Quick Start
+
+```bash
+# Install dependencies
+pip install httpx
+
+# Set your ZenMux API Key
+export ZENMUX_API_KEY="your-zenmux-friend-token"
+
+# Run the orchestrator
+python orchestrator.py
+```
